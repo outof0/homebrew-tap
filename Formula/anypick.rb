@@ -1,26 +1,26 @@
 class Anypick < Formula
   desc "Native account and proxy manager for AI coding clients"
   homepage "https://github.com/outof0/anypick"
-  version "1.1.0"
+  version "1.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/outof0/anypick/releases/download/v1.1.0/anypick-1.1.0-darwin-arm64.tar.gz"
-      sha256 "84f9d9fdfe2bf39a2969acba3d3b2d8022913737e436d92a6bc59f886f6f45cc"
+      url "https://github.com/outof0/anypick/releases/download/v1.1.1/anypick-1.1.1-darwin-arm64.tar.gz"
+      sha256 "2f18d80b8a4bfea18d726978c7160a36fbb7f4982e3dd2a1a7a573fdb1b2cf64"
     else
-      url "https://github.com/outof0/anypick/releases/download/v1.1.0/anypick-1.1.0-darwin-amd64.tar.gz"
-      sha256 "e7b784154bc4bc71577a87b6d1f4cc088da6f3a7fc1b6dc47ffa9916a7c907d4"
+      url "https://github.com/outof0/anypick/releases/download/v1.1.1/anypick-1.1.1-darwin-amd64.tar.gz"
+      sha256 "8632e74d32efd82e809aa3ae8a945dbd3762b6f438a3802555e25683b8c4731d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/outof0/anypick/releases/download/v1.1.0/anypick-1.1.0-linux-arm64.tar.gz"
-      sha256 "6fc0488cc9b152d3eba39a46773ea122de5e8c3cb18c63e7cf12e7027a0cb4dc"
+      url "https://github.com/outof0/anypick/releases/download/v1.1.1/anypick-1.1.1-linux-arm64.tar.gz"
+      sha256 "d38008c397a36aa512362e364fb565f980631bfdbaf2fc8c568186e925cc4b74"
     else
-      url "https://github.com/outof0/anypick/releases/download/v1.1.0/anypick-1.1.0-linux-amd64.tar.gz"
-      sha256 "928d83bc2b6803b96891b7f7029ec5b567d136eed8eca161a958c8dbbf69fe88"
+      url "https://github.com/outof0/anypick/releases/download/v1.1.1/anypick-1.1.1-linux-amd64.tar.gz"
+      sha256 "58eec69c8c36d9600ae59af495fe265a2c7e1280432c10f1e45622825908717c"
     end
   end
 

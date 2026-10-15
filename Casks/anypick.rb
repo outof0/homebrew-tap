@@ -1,8 +1,8 @@
 cask "anypick" do
-  version "1.1.0"
-  sha256 "d3ba775502491fd4a490ad323a1979953a2bc6eba15684c97e305d412578c3e2"
+  version "1.1.1"
+  sha256 "d4a77e33dc575b1fc78f8f1f640d0857722ceaaac45e16e1142564f20bb1b9d9"
 
-  url "https://github.com/outof0/anypick/releases/download/v1.1.0/AnyPick-macos-universal.zip"
+  url "https://github.com/outof0/anypick/releases/download/v1.1.1/AnyPick-macos-universal.zip"
   name "AnyPick"
   desc "Native account and proxy manager for AI coding clients"
   homepage "https://github.com/outof0/anypick"
