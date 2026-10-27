@@ -1,8 +1,8 @@
 cask "anypick" do
-  version "1.1.4"
-  sha256 "8f09a81c40bc4dbccdf2fd868598e2ad677ae298d9173a11247a3f5f6d30f060"
+  version "1.1.5"
+  sha256 "a850e2dac092b3fda36f1712c7270392466c9f5f7c51e51888ec4f00f7efadab"
 
-  url "https://github.com/outof0/anypick/releases/download/v1.1.4/AnyPick-macos-universal.zip"
+  url "https://github.com/outof0/anypick/releases/download/v1.1.5/AnyPick-macos-universal.zip"
   name "AnyPick"
   desc "Native account and proxy manager for AI coding clients"
   homepage "https://github.com/outof0/anypick"
@@ -15,7 +15,7 @@ cask "anypick" do
       AnyPick.app and choose Open, or go to System Settings → Privacy & Security
       and choose Open Anyway. You can also remove the quarantine flag with:
 
-        xattr -dr com.apple.quarantine /Applications/AnyPick.app
+        /usr/bin/xattr -dr com.apple.quarantine /Applications/AnyPick.app
     EOS
   end
 end
